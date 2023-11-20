@@ -1,9 +1,9 @@
 # Board
 #### ⚪ About Project
 * 인증된 사용자가 작성한 게시글은 사용자에게 종속된 접근권한 분리형, Postgresql를 이용한 게시판 서비스
-* ##### 게시글생성, 조회, 전체조회, 수정, 삭제 API 게시글 모듈, 관계형 데이터 베이스인 Postgresql로 권한분리 구현
-* ##### 유저생성, 조회, 전체조회, 수정, 삭제, 전체삭제기능 API 사용자 모듈
-* ##### 로그인, 회원가입 API 인증모듈에서 PassPort,Jwt-Strategy, Jwt accessToken을 사용한 인증 구현
+* 게시글생성, 조회, 전체조회, 수정, 삭제 API 게시글 모듈, 관계형 데이터 베이스인 Postgresql로 권한분리 구현
+* 유저생성, 조회, 전체조회, 수정, 삭제, 전체삭제기능 API 사용자 모듈
+* 로그인, 회원가입 API 인증모듈에서 PassPort,Jwt-Strategy, Jwt accessToken을 사용한 인증 구현
 
 * * * *
 #### ⚪ Usage
