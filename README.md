@@ -34,25 +34,25 @@ npm run start
 
 ⚪ Description 
 * User
- * createUser: 사용자 엔티티 생성 및 저장
- * getUser: 주어진 이메일을 이용해 사용자 조회
- * getAllUser: 모든 사용자 조회 후 반환
- * updateUser: 주어진 이메일을 이용해 사용자 조회 후 사용자 객체 비밀번호 해시 후 업데이트
- * deleteUser: 주어진 이메일을 이용해 사용자 삭제
+  * createUser: 사용자 엔티티 생성 및 저장
+  * getUser: 주어진 이메일을 이용해 사용자 조회
+  * getAllUser: 모든 사용자 조회 후 반환
+  * updateUser: 주어진 이메일을 이용해 사용자 조회 후 사용자 객체 비밀번호 해시 후 업데이트
+  * deleteUser: 주어진 이메일을 이용해 사용자 삭제
 * Board
- * createBoard: 게시물 엔티티 생성 및 저장
- * getBoard: 주어진 ID를 이용해 게시글 조회
- * getAllBoard: 유저가 가진 모든 게시글 조회
- * updateBoard: 유저가 가진 게시글 업데이트
- * deleteBoard: 유저가 가진 게시글을 삭제
+  * createBoard: 게시물 엔티티 생성 및 저장
+  * getBoard: 주어진 ID를 이용해 게시글 조회
+  * getAllBoard: 유저가 가진 모든 게시글 조회
+  * updateBoard: 유저가 가진 게시글 업데이트
+  * deleteBoard: 유저가 가진 게시글을 삭제
 * Auth
- * register: getUser로 사용자 존재여부 확인, 비밀번호 해시화후 createUser에 주입해 사용자 등록
- * login: getUser로 사용자 존재여부 확인, 비밀번호 비교후 JWT accessToken 생성
+  * register: getUser로 사용자 존재여부 확인, 비밀번호 해시화후 createUser에 주입해 사용자 등록
+  * login: getUser로 사용자 존재여부 확인, 비밀번호 비교후 JWT accessToken 생성
 * Else
- * PassPort와 JWT Strategy를 이용한 사용자 인증, Guard를 통한 핸들러 메서드에 전달전 검증
- * TypeORM 설정과 Entity를 통한 Postgresql 연동
- * Class-validator, ValidationPipe를 통한 유효성 검증
- * User와 Board Entity간 관계형성으로 접근권한 분리
+  * PassPort와 JWT Strategy를 이용한 사용자 인증, Guard를 통한 핸들러 메서드에 전달전 검증
+  * TypeORM 설정과 Entity를 통한 Postgresql 연동
+  * Class-validator, ValidationPipe를 통한 유효성 검증
+  * User와 Board Entity간 관계형성으로 접근권한 분리
 
 - - -
 
