@@ -1,4 +1,4 @@
-# Board
+# NestJS-Board_Server
 #### ⚪ About Project
 * ##### 인증된 사용자가 작성한 게시글은 사용자에게 종속된 접근권한 분리형 게시판 서비스
 * ##### 게시글, 유저 API, 관계형 데이터 베이스인 Postgresql로 권한분리 구현
