@@ -2,7 +2,7 @@
 #### ⚪ About Project
 * ##### 인증된 사용자가 작성한 게시글은 사용자에게 종속된 접근권한 분리형 게시판 서비스
 * ##### 게시글, 유저 API, 관계형 데이터 베이스인 Postgresql로 권한분리 구현
-* ##### 인증 API, assPort(Jwt-Strategy), Jwt accessToken을 사용한 인증 구현
+* ##### 인증 API, Passport(Jwt-Strategy), Jwt accessToken을 사용한 인증 구현
 
 - - -
 
